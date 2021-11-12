@@ -10,7 +10,7 @@ function pace ()
 
     if (nome !== '' && peso !== '' && distancia !== '' && tempo !== '') 
     {
-        const tempo_corte = tempo.split(';');
+        const tempo_corte = tempo.split(':');
 
         const horas = parseInt(tempo_corte[0]);
 
